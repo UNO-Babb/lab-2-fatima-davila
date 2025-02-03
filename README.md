@@ -21,7 +21,7 @@ Create a program that will allow the user to ask a question, then provide a rand
 - Outlook good.
 - Reply hazy, try again.
 - Signs point to yes.
-- Very doubtful.
+- 
 - Without a doubt.
 - Yes.
 - Yes – definitely.
