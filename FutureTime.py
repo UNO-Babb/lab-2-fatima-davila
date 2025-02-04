@@ -13,13 +13,12 @@ def main():
   currentHour =( now.hour-6) % 24
   currentMinute = now.minute
 
-  print (currentHour, currentMinute) #this is just for checking, we should delete it later
 
   #TODO:
   #Ask user for hours
-  inputhr = input("hours")
+  inputhr = input("hours: ")
   #Ask user for minutes
-  inputmin = input("minutes")
+  inputmin = input("minutes: ")
   moreMins = (60 * int(inputhr) + int(inputmin) )
 
   futureMins = (currentMinute + moreMins) % 60
